@@ -7,7 +7,7 @@
 # Pull base image
 FROM java:8
 
-ENV SCALA_VERSION 2.12.1
+ENV SCALA_VERSION 2.11.8
 ENV SBT_VERSION 0.13.13
 
 # Install Scala
@@ -27,4 +27,4 @@ RUN \
   sbt sbtVersion
 
 # Define working directory
-WORKDIR /root
+WORKDIR /opt
