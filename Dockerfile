@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM java:8
+FROM openjdk:8
 
 ENV SCALA_VERSION 2.11.8
 ENV SBT_VERSION 0.13.13
